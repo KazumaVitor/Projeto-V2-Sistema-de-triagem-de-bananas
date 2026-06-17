@@ -102,23 +102,42 @@ json
 }
 
 🛠️ Tecnologias Utilizadas
-Python
 
-Ultralytics YOLO
+*Python
 
-FastAPI
+*Ultralytics YOLO
 
-OpenCV
+*FastAPI
 
-NumPy
+*OpenCV
 
-Pillow
+*NumPy
 
-HTML, CSS, JavaScript
+*Pillow
 
-Google Colab
+*HTML, CSS, JavaScript
+
+*Google Colab
 
 📦 Pesos do Modelo
+
 Arquivo local: models/best.pt
 
-Link alternativo: Google Drive
+Link alternativo: Google Drive(https://drive.google.com/drive/my-drive?hl=pt-br)
+
+🚀 Como Executar o Projeto
+bash
+# Criar ambiente virtual
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Executar servidor
+uvicorn backend.main:app --reload
+
+Acesse a documentação interativa em:
+👉 http://127.0.0.1:8000/docs  
+👉 http://127.0.0.1:8000/redoc
