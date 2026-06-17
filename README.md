@@ -49,13 +49,19 @@ Dataset já previamente rotulado (não foi necessária anotação manual).
 
 ## 📈 Resultados do Treinamento
 
-- **Top-1 Accuracy:** 99,11%  
-- **Top-5 Accuracy:** 100%  
-- **Loss final:** (inserir valor)  
+-Top-1 Accuracy: 99,11%
 
-📊 Gráficos disponíveis em `/prints/`:  
-- `results.png` → evolução de loss e accuracy  
-- `confusion_matrix.png` → matriz de confusão  
+-Top-5 Accuracy: 100%
+
+-Loss final (val): ~0.05
+
+## 📈 Resultados do Treinamento
+
+### Evolução de Loss e Accuracy
+![Resultados do Treinamento](prints/results.png)
+
+### Matriz de Confusão
+![Matriz de Confusão](prints/confusion_matrix.png)
 
 ---
 
